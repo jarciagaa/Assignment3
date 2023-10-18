@@ -1,3 +1,97 @@
 body {
     background-color: black;
+    color:aliceblue;  
+    margin: 0;
+    padding: 0;
+
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: medium;
+}
+
+
+
+@media (min-width: 1601px) {
+    
+}
+
+@media (min-width: 1281px) and (max-width: 1600px) {
+    
+        
+}
+    
+@media (min-width: 701px) and (max-width: 1280px) {
+    #phonebox{
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: repeat(5, 1fr);
+        justify-content: center;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+
+    #headerBox{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        align-items: center;
+    }
+
+    #emailBox{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+
+    #theoryBox{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+    .infoBox{
+        margin: 0% 5% 10%;
+    }
+
+    
+    
+}
+            
+    
+@media (min-width: 200px ) and (max-width: 700px) {
+
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+
+    #phonebox{
+        display: grid;
+        grid-template-columns: 30%;
+        justify-content: center;
+        
+    }
+    .navBar{
+        display: grid;
+        grid-template-rows: 20%;
+        
+    }
+
+    .infoBox{
+        background-color:lightblue;
+        margin: 0% 5% 5%;
+    }
+    
+    
+    
+    
+}
+
