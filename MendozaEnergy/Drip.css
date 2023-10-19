@@ -3,14 +3,13 @@ body {
     color:aliceblue;  
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-size: medium;
 }
-
-
 
 @media (min-width: 1601px) {
     
@@ -37,7 +36,6 @@ h1, h2, h3, h4, h5, h6 {
         grid-template-rows: 1fr;
         grid-column-gap: 0px;
         grid-row-gap: 0px;
-        align-items: center;
     }
 
     #emailBox{
@@ -79,6 +77,11 @@ h1, h2, h3, h4, h5, h6 {
         justify-content: center;
         
     }
+
+    .mailImg{
+        padding: 1em;
+    }
+
     .navBar{
         display: grid;
         grid-template-rows: 20%;
